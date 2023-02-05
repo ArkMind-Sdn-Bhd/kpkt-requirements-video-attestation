@@ -13,22 +13,6 @@ export const Demo3Page = () => {
             myVideo.pause();
     }
 
-    function makeBig() {
-        var myVideo = document.getElementById("video1");
-        myVideo.width = 560;
-    }
-
-    function makeSmall() {
-        var myVideo = document.getElementById("video1");
-        myVideo.width = 320;
-    }
-
-    function makeNormal() {
-        var myVideo = document.getElementById("video1");
-        myVideo.width = 420;
-    }
-
-
     return (
         <>
             <button onClick={playPause}>PLAY/PAUSE</button>
