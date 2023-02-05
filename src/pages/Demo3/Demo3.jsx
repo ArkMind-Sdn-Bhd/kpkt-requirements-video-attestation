@@ -16,7 +16,8 @@ export const Demo3Page = () => {
     return (
         <>
             <button onClick={playPause}>PLAY/PAUSE</button>
-            <video id={"video1"}>
+            <br />
+            <video id={"video1"} height={"500"}>
                 <source src="https://master-setup-redcash.hardcore-carver.42-1-60-64.plesk.page/redCash/admin/master/api/v1.0/file/1a65ec57-0ecf-4771-8cac-61f2d34999fe" type="video/mp4" />
             </video>
         </>
